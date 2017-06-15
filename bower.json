@@ -1,6 +1,6 @@
 {
-  "name": "jekyll-github-pages",
-  "description": "Jekyll GitHub Pages",
+  "name": "samwilsonme.github.io",
+  "description": "Personal Website",
   "main": "gulpfile.js",
   "authors": [
     "Sam Wilson"
@@ -16,7 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "foundation-sites": "^6.3.1",
-    "font-awesome": "^4.7.0"
+    "normalize-scss": "^3.0.3",
+    "font-awesome": "^4.7.0",
+    "particles.js": "particles-js#^2.0.0"
   }
 }

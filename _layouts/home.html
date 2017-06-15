@@ -2,24 +2,35 @@
 layout: default
 ---
 
-<div class="home">
+<div id="content">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1>Sam Wilson</h1>
 
-  {{ content }}
+  <h2>General Manager at <a href="http://www.artofflooring.co.uk/" target="_blank" title="Art of Flooring">Art of Flooring</a></h2>
+  <h3>Based in Cambridge, UK</h3>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="social">
+    {% if site.twitter %}
+      {% include social-icon.html array=site.twitter %}
+    {% endif %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    {% if site.facebook %}
+      {% include social-icon.html array=site.facebook %}
+    {% endif %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {% if site.instagram %}
+      {% include social-icon.html array=site.instagram %}
+    {% endif %}
+
+    {% if site.linkedin %}
+      {% include social-icon.html array=site.linkedin %}
+    {% endif %}
+
+    {% if site.github %}
+      {% include social-icon.html array=site.github %}
+    {% endif %}
+  </div>
 
 </div>
+
+<div id="particles-js"></div>

@@ -5,18 +5,10 @@
 
   <body>
 
-    {% include header.html %}
-
-    <main class="page-content row" aria-label="Content">
-      <div class="wrapper large-12 columns">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-
-    {% include foot.html %}
+    {{ content }}
 
   </body>
+
+  {% include foot.html %}
 
 </html>

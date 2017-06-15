@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-github-pages",
+  "name": "samwilsonme.github.io",
   "version": "1.0.0",
-  "description": "Jekyll GitHub Pages",
+  "description": "Personal Website",
   "main": "gulpfile.js",
   "scripts": {
     "watch": "gulp",
@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/samwilsonme/jekyll-github-pages"
+    "url": "https://github.com/samwilsonme/samwilsonme.github.io"
   }
 }
