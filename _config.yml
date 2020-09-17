@@ -17,7 +17,7 @@ title: Sam Wilson
 email: samwilsonme@gmail.com
 description: Sam Wilson - General Manager at Art of Flooring - Based in Cambridge, UK
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://www.samwilson.me # the base hostname & protocol for your site, e.g. http://example.com
+url: http://samwilson.me # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-54644459-1
 google_tagmanager: GTM-NPW6V96
 
