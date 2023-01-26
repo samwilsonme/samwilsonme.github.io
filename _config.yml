@@ -28,7 +28,8 @@ google_tagmanager: GTM-NPW6V96
 
 # Build settings
 markdown: kramdown
-gems:
+# gems:
+plugins:
   - jekyll-feed
 exclude:
 - package.json
